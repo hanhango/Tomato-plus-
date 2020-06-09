@@ -1,0 +1,22 @@
+<!--pages/getreward/index.wxml-->
+<view class="getreward">
+  <view class="bg">
+    <image class="bgc" src="../../img/happyground.png" mode="widthFix"/>
+  </view>
+
+  <view class="get">
+    <view class="ball1">
+      <image class="b1" src="../../img/happy.png" mode="widthFix"/>
+    </view>  
+    <view class="ball2">
+      <image class="b2" src="../../img/happytoo.png" mode="widthFix"/>
+    </view>
+
+    <view class="mess">
+      <span>{{message}}</span>
+    </view>
+  </view>
+    
+  
+    
+</view>

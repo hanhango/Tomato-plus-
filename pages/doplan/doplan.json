@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+      "navigationBarBackgroundColor": "#0D0E12",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "计时中",
+      "backgroundColor": "#0D0E12",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+}

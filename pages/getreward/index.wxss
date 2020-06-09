@@ -1,0 +1,84 @@
+/* pages/getreward/index.wxss */
+.getreward{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+.bg{
+  margin-top: 100rpx;
+  width: 100%;
+  height: 600rpx;
+}
+.b1,
+.b2,
+.bgc{
+  width: 100%;
+  height: 100%;
+}
+
+
+.get{
+  position: relative;
+  padding: 100rpx 0 0 50rpx;
+  width: 100%;
+  height: 300rpx;
+}
+
+
+.ball1,.ball2
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+@keyframes move{
+  0%,100%{
+    transform: translate(0,0);
+  }
+  25%{
+    transform: translate(500rpx,0);
+  }
+  50%{
+ 
+    transform: translate(550rpx,350rpx);
+
+  }
+  75%{
+ 
+    transform: translate(0,350rpx);
+
+  }
+}
+
+
+
+/* @keyframes move{
+  0%{transform:rotate(0deg);}
+    100%{transform: rotate(-360deg)}
+} */
+
+.ball1{
+  animation: move 4s linear infinite;
+  animation-delay: 1s
+}
+.ball2{
+  animation: move 4s linear infinite;
+}
+
+
+.mess{
+  width: 80%;
+  height: 200rpx;
+  font-weight: 700;
+  font-size: 42rpx;
+  color: #7f8fa6;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 59rpx;
+}

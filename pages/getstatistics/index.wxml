@@ -1,0 +1,56 @@
+<!--pages/getstatistics/index.wxml-->
+<view class="statistics">
+  <view class="User">
+    <open-data class="userhead" type="userAvatarUrl"></open-data>
+  </view>
+  <view class="Username">
+    <open-data class="name" type="userNickName"></open-data>    
+  </view>
+
+
+  <view class="sta">
+    <view bindtap="tosee" class="usersta">
+      <view class="lin">
+        累计完成任务
+      </view>
+      <span class="num">
+      <view wx:if="{{hasNew}}" class="new"></view>
+        {{tnum}}
+      </span>
+
+
+        
+    </view>
+
+    <view bindtap="toindex" class="nowplan">
+      <view class="lin">
+        未完成任务
+      </view>
+      <span class="num">{{nnum}}</span>
+    </view>
+      
+  </view>
+
+
+  <view class="aboutworks">
+    <view class="imgf">
+      <image class="img" src="../../img/works.png" mode="widthFix" />
+    </view>
+    <span>关于作品</span>
+    <view class="right">
+      <image class="img" src="../../img/right.png" mode="widthFix" />
+    </view>
+  </view>
+
+  <view class="aboutworks">
+    <view class="imgf">
+      <image class="img" src="../../img/us.png" mode="widthFix" />
+    </view>
+    <span>关于我们</span>
+    <view class="right">
+      <image class="img" src="../../img/right.png" mode="widthFix" />
+    </view>
+  </view>
+    
+</view>
+  

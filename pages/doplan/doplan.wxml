@@ -1,0 +1,36 @@
+<!--pages/doplan/doplan.wxml-->
+<!-- <image class="music" src="../../img/unplay.png" mode="widthFix" /> -->
+<view class="page"> 
+<view class="doplan">
+  <view bindtap="musicClick" class="music">
+    <image wx:if="{{playMusic}}" class="playmusic" src="../../img/play.png" mode="widthFix" />
+    <image wx:else class="playmusic" src="../../img/unplay.png" mode="widthFix" />
+  </view>
+
+  <view class="progress {{isGoing?'rain':''}}">
+    <span class="gotime" wx:if="{{isGoing}}">计时中</span>
+    <span class="gotime" wx:else>已暂停</span>
+    <view class="time">
+      <span>{{hour}}:{{minute}}:{{second}}</span>
+    </view>
+    <p></p>
+  </view>
+  
+  <view class="white">
+    
+  </view>
+    
+  <view class="gotime {{isGoing?'isactive':'noactive'}}">
+    <span bindtap="pauseTime" wx:if="{{isGoing}}" class="active">暂停计时</span>
+    <span bindtap="continueTime" wx:else class="unactive">继续计时</span>
+  </view>
+
+  <view bindtap="deletePlan" class="cancel">
+    <span>删除任务</span>
+  </view>
+  
+
+</view>
+
+
+</view> 

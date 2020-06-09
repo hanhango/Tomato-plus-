@@ -1,0 +1,137 @@
+/**index.wxss**/
+/* page{
+  background-color: rgb(255, 245, 247);
+}*/
+/* 指定计划 */
+.plan{
+  width: 143rpx;
+  height: 143rpx;
+  /* background-color: #d3a756; */
+  background-color: rgb(222, 235, 247);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 133rpx;
+  right: 31rpx;
+  text-align: center;
+}
+.img1{
+  /* border: 1px solid #d3a756; */
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  transform: translateY(50%);
+}
+
+/* 标题 */
+.theme{
+  position: relative;
+  width: 90%;
+  height: 300rpx;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 23rpx;
+  background-color: rgb(206, 92, 92);
+}
+.themefont{
+  font-size: 62rpx;
+  line-height: 300rpx;
+  font-weight: 900;
+}
+
+
+.remain{
+  width: 90%;
+  margin: 0 auto; 
+}
+.read{
+  font-weight: 900;
+}
+/* 计划清单 */
+.planItem{
+  box-shadow: 6rpx 6rpx 8rpx rgb(168, 135, 135);
+  position: relative;
+  margin: 40rpx auto;
+  width: 90%;
+  height: 130rpx;
+  /* background-color: rgb(69, 137, 148); */
+  background-color: #FFC921;
+  /* background-color: #CC99FE; */
+  border-radius: 23rpx;
+}
+.name{
+  position: absolute;
+  /* text-shadow: 1rpx 1rpx 1px whitesmoke; */
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  margin: 5rpx 0 0 10rpx;
+  font-weight: 800;
+  top: 0;
+  left: 0;
+}
+.spendTime{
+  position: absolute;
+  font-weight: 700;
+  /* color: #818181; */
+  /* font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 5rpx 10rpx 0 0;
+  right: 0;
+  top: 0;
+}
+
+/* 进度条 */
+.progress{
+  position: absolute;
+  bottom: 20rpx;
+  left: 0;
+  height: 30rpx;
+  margin-left: 20rpx;
+  /* background-image: linear-gradient(to right, gray , whitesmoke); */
+}
+.AppletProgress{
+  width: 449rpx;
+}
+
+
+.button{
+  position: absolute;
+  bottom: 5rpx;
+  right: 20rpx;
+  background-color: wheat;
+  /* color: aliceblue; */
+}
+
+/* 获取头像信息 */
+.head{
+  position: absolute;
+  top: 20rpx;
+  right: 60rpx;
+  height: 100rpx;
+  width: 100rpx;
+  overflow: hidden;
+  border-radius: 50%;
+  animation: move 4s linear infinite;
+  text-align: center;
+}
+.op1{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+@keyframes move{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-360deg);
+  }
+}
+
+.remainUser{
+  position: absolute;
+  font-size: 20rpx;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+

@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view class="index">
+  
+  <view class="theme">
+    <view bindtap="goUser" class="head">
+      <open-data class="op1" type="userAvatarUrl"></open-data>
+    </view>
+    <span class="themefont">Tomato   plus</span>
+    <span class="remainUser">--点击头像详情--</span>
+  </view>
+ 
+  <view class="remain">
+    <text class="read">
+      ⭐你的待完成任务(完成即可获得奖励哦)
+    </text>
+  </view>
+  
+    
+  <view class="planlist">
+    <view
+      bindtap="itemClick"
+      class="planItem"
+      wx:key="tittle"
+      wx:for="{{planList}}" 
+      hidden="{{goplan}}">
+      <span class="name">
+        {{item.tittle}}
+      </span>
+      <span class="spendTime">
+        {{item.spendHour}}:{{item.spendMinute}}/{{item.needHour}}:{{item.needMinute}}
+      </span>
+
+      <view class="progress">
+        <progress 
+          activeColor="#5864A2" 
+          class="AppletProgress" 
+          active-mode="forwards" 
+          stroke-width="30rpx" 
+          backgroundColor="#E0E0E0"	 
+          active="true" show-info="true" 
+          border-radius="13rpx" 
+          percent="{{item.percent}}">
+
+        </progress>
+      </view>
+
+      <button wx:if="{{item.percent != 100}}" class="button" data-index="{{index}}" bindtap="continue" size="mini">继续</button>
+      <button wx:else class="button" data-index="{{index}}" bindtap="getreward" size="mini">领取奖励</button>
+
+      <!-- <view>
+        
+      </view> -->
+        
+
+        
+    </view>
+  </view>
+    
+
+
+  <view bindtap="planClick" class="plan">
+    <image src="../../img/plan.png" class="img1"/>
+  </view>
+  
+    
+</view>
+  

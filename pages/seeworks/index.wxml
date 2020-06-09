@@ -1,0 +1,46 @@
+<!--pages/seeworks/index.wxml-->
+<view class="seeworks">
+  <view wx:if="{{finishList.length !== 0}}">
+    <view class="tittle">
+      <view class="left">
+        <image class="img" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+      </view>
+  
+      <span>所有努力都不会被辜负</span>
+  
+      <view class="right">
+        <image class="img" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+      </view>
+    </view>
+  
+  
+    <view class="finish"
+          wx:for="{{finishList}}"
+          wx:key="tittle"
+    >
+      <view class="circle"></view>
+      <view class="can">
+        <span class="time">{{item.nowTime}}</span>
+        <span class="spendtime">{{item.needHour}}时{{item.needMinute}}分</span>
+      </view>
+      <view class="toright"></view>
+      
+      <view class="plan">
+        {{item.tittle}}
+      </view>
+        
+    </view> 
+  </view>
+    
+  <view wx:else  class="bg">
+    <image class="img" src="../../img/unfinish.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    <view class="unfi">
+      <span>你还没有完成过一个任务呢，快去添加并且完成吧</span> 
+    </view>
+      
+  </view>
+      
+
+    
+</view>
+  

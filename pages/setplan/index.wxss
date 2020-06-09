@@ -1,0 +1,77 @@
+/* pages/setplan/index.wxss */
+/* page{
+  background-color: #F8AB48;
+} */
+.tittle{
+  font-weight: 700;
+}
+.setplan{
+  position: relative;
+  width: 81%;
+  height: 65vh;
+  margin: 150rpx auto;
+  border-radius: 40rpx;
+  box-shadow: 30rpx 30rpx 12rpx bisque;
+  /* background-image: url("https://i.loli.net/2020/05/23/Gik7hydO8TwMUWS.jpg");
+  background-repeat: no-repeat;
+  background-size: 103% */
+  background-color: #d1d8e0;
+}
+
+.theme{
+  display: flex;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 62rpx;
+  transform: translate(0,100rpx);
+  font-weight: 900;
+}
+/* 夹子 */
+.clip1,.clip2,.clip3{
+  position: absolute;
+  top: -63rpx;
+  width: 10%;
+  height: 14%;
+}
+.clip1{
+  right: 0;
+}
+.clip2{
+  right: 60rpx;
+}
+.clip3{
+  right: 123rpx;
+}
+
+span{
+  display: block;
+}
+.time{
+  margin: 20rpx 0rpx 20rpx;
+}
+.chioce{
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+input{
+  padding: 12rpx;
+  width: 498rpx;
+  margin: 14rpx;
+  border-radius: 12rpx;
+  /* background-color: #FCFEE2; */
+  background-color: whitesmoke;
+  box-shadow: 2rpx 2rpx solid wheat;
+  display: inline-block;
+}
+.spplan{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.spplan span{
+  margin: 14rpx;
+}

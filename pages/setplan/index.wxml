@@ -1,0 +1,30 @@
+<!--pages/setplan/index.wxml-->
+<view class="theme">
+  <span>新建任务</span>
+</view>
+<view class="setplan">
+  <image class="clip1" src="../../img/clip.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+  <image class="clip2" src="../../img/clip.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+  <image class="clip3" src="../../img/clip.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+  
+
+
+  <view class="spplan">
+    <input bindblur="flagSet" type="text" placeholder="立个Flag 如:我要学习12个小时"/>
+    <span class="tittle">花多长时间</span>
+    
+    <picker class="" mode="time" range-key="" value="{{time}}" bindchange="timeChange" bindcancel="">
+      <span class="time">利用{{hour}}时{{minute}}分去成长</span>                               
+    </picker>
+       
+    <input bindblur="rewardSet"  type="text" placeholder="奖品 如:完成后就去喝奶茶"/>
+
+    <view class="chioce">
+      <button type="primary" bindtap="save" size="mini">保存</button>
+      <button bindtap="cancel" type="" size="mini">取消</button>
+    </view>
+      
+  </view>
+  
+</view>
+  

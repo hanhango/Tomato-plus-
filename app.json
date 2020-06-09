@@ -1,0 +1,22 @@
+{
+  "usingComponents":{
+  },
+  "pages":[
+    "pages/index/index",
+    "pages/setplan/index",
+    "pages/doplan/doplan",
+    "pages/getreward/index",
+    "pages/getstatistics/index",
+    "pages/seeworks/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
