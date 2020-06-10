@@ -3,13 +3,13 @@
   <view wx:if="{{finishList.length !== 0}}">
     <view class="tittle">
       <view class="left">
-        <image class="img" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="img1" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
       </view>
   
       <span>所有努力都不会被辜负</span>
   
       <view class="right">
-        <image class="img" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="img2" src="../../img/heart.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
       </view>
     </view>
   

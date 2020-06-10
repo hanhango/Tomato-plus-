@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "添加计划",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+
 }

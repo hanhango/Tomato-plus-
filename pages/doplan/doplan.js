@@ -92,7 +92,7 @@ Page({
 
 
       if (spendTime === app.globalData.planList[this.data.index].needTime) {
-        wx.navigateTo({
+        wx.reLaunch({
           url: '../index/index'
         })
         clearInterval(go);
@@ -105,8 +105,8 @@ Page({
     clearInterval(go);
     let app = getApp();
     app.globalData.planList.splice(this.data.index, 1);
-    innerAudioContext.destroy()
-    wx.navigateTo({
+    innerAudioContext.pause()
+    wx.reLaunch({
       url: '../index/index',
     })
     clearInterval(go);

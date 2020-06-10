@@ -52,14 +52,14 @@ Page({
 
       app.globalData.planList.push(obj)
 
-      wx.navigateTo({
+      wx.reLaunch({
         url: '../index/index'
       })
     }
 
   },
   cancel() {
-    wx.navigateTo({
+    wx.reLaunch({
       url: '../index/index'
     })
   },

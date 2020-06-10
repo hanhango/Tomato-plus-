@@ -15,9 +15,17 @@ Page({
     let app =  getApp();
     
     console.log(app.globalData.planList[options.index].reward);
-    console.log(options.index);  
+    console.log(options.index);
+    let ans = '恭喜完成任务啦~  快去';
+    let check = app.globalData.planList[options.index].reward;
+    if(check[check.length - 1] === '!' || check[check.length - 1] === '~'){
+      ans += check
+    } else{
+      ans += check + '吧!';
+    } 
     this.setData({
-      message: '恭喜完成任务啦~快去' + app.globalData.planList[options.index].reward + '吧'
+      // message: '恭喜完成任务啦~快去' + app.globalData.planList[options.index].reward + '吧'
+      message:  ans
     })
     let time = new Date();
     app.globalData.planList[options.index].nowTime = time.getFullYear().toString() + "-" + (time.getMonth() + 1).toString() + "-" + time.getDay().toString();
