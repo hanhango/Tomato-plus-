@@ -7,7 +7,7 @@
       <image class="img" src="../../img/han.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
     </view>
     <span class="name">小韩</span>
-    <span class="ability">萌新前端开发</span>
+    <span class="ability">前端开发</span>
     <view bindtap="han" class="wechat">
       <image class="img" src="../../img/wechat.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
     </view>
@@ -17,8 +17,8 @@
     <view class="head">
       <image class="img" src="../../img/ding.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
     </view>
-    <span class="name">丁丁</span>
-    <span class="ability">全能产品经理</span>
+    <span class="name">小丁</span>
+    <span class="ability">辅助策划</span>
     <view bindtap="ding" class="wechat">
       <image class="img" src="../../img/wechat.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
     </view>
