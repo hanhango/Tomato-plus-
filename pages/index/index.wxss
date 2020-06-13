@@ -94,8 +94,8 @@
 
 .button{
   position: absolute;
-  bottom: 5rpx;
-  right: 20rpx;
+  bottom: 2rpx;
+  right: 10rpx;
   background-color: wheat;
   /* color: aliceblue; */
 }

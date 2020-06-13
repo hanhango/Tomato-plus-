@@ -32,7 +32,7 @@
   </view>
 
 
-  <view class="aboutworks">
+  <view bindtap="aboutworks" class="aboutworks">
     <view class="imgf">
       <image class="img" src="../../img/works.png" mode="widthFix" />
     </view>
@@ -42,7 +42,7 @@
     </view>
   </view>
 
-  <view class="aboutworks">
+  <view bindtap="aboutus" class="aboutworks">
     <view class="imgf">
       <image class="img" src="../../img/us.png" mode="widthFix" />
     </view>

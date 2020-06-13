@@ -93,6 +93,19 @@
 					"pathName": "pages/seeworks/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/aboutus/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于作品",
+					"pathName": "pages/aboutworks/index",
+					"scene": null
 				}
 			]
 		}

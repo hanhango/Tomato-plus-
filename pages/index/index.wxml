@@ -39,9 +39,7 @@
           backgroundColor="#E0E0E0"	 
           active="true" show-info="true" 
           border-radius="13rpx" 
-          percent="{{item.percent}}">
-
-        </progress>
+          percent="{{item.percent}}"></progress>
       </view>
 
       <button wx:if="{{item.percent != 100}}" class="button" data-index="{{index}}" bindtap="continue" size="mini">继续</button>

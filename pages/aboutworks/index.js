@@ -1,51 +1,18 @@
-// pages/getstatistics/index.js
+// pages/aboutworks/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tnum: 0,
-    nnum: 0,
-    hasNew: false
+
   },
-  tosee(){
-    let app =  getApp();
-    app.globalData.hasNew = false;
-    this.setData({
-      hasNew: false
-    })  
-    wx.navigateTo({
-      url: '../seeworks/index',
-    })
-  },
-  toindex(){
-    wx.navigateTo({
-      url: '../index/index',
-    })
-  },
-  aboutus(){
-    wx.navigateTo({
-      url: '../aboutus/index',
-    })
-  },
-  aboutworks(){
-    wx.navigateTo({
-      url: '../aboutworks/index',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let app =  getApp();
-    // console.log(app.globalData.finishedPlan);
-    console.log(app.globalData.hasNew);    
-    this.setData({
-      tnum: app.globalData.finishedPlan.length,
-      nnum: app.globalData.planList.length,
-      hasNew: app.globalData.hasNew
-    })
+
   },
 
   /**

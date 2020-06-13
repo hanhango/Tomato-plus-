@@ -1,0 +1,13 @@
+<!--pages/aboutworks/index.wxml-->
+<view class="works">
+  <view class="cp">
+    <span>关于作品</span>
+  </view>
+  <view class="detail">
+    <view class="img">
+      <image class="img1" src="../../img/happytoo.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+    <span>用Tomato Plus+帮助记录你完成事项的时间。通过小程序记录完成事项的过程，回顾以前完成过的事项，提高完成事项过程中的专注度。快开始使用小程序，让Tomato Plus的简单快捷帮助完成你每一个值得坚持的想法。</span>  
+  </view>
+    
+</view>

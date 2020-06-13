@@ -1,7 +1,7 @@
 {
   "usingComponents": {},
   "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "个人统计",
+  "navigationBarTitleText": "关于我们",
   "backgroundTextStyle": "light",
   "enablePullDownRefresh": false
 }

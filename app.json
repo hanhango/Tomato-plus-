@@ -5,9 +5,11 @@
     "pages/index/index",
     "pages/setplan/index",
     "pages/doplan/doplan",
+    "pages/seeworks/index",
     "pages/getreward/index",
     "pages/getstatistics/index",
-    "pages/seeworks/index"
+    "pages/aboutus/index",
+    "pages/aboutworks/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

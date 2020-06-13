@@ -1,0 +1,61 @@
+/* pages/aboutus/index.wxss */
+.aboutus{
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  text-align: center;
+}
+.team{
+  font-size: 55rpx;
+  font-weight: 800;
+  color: #1B9CFC;
+}
+
+.han{
+  margin-top: 40rpx;
+  width: 100%;
+  height: 300rpx;
+  background-color: #45aaf2;
+  border-radius: 23rpx;
+  box-shadow: 0 0 15rpx royalblue;
+  position: relative;
+  padding: 20rpx;
+}
+
+.head{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #3867d6;
+  border-radius: 50%;
+
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+.name{
+  position: absolute;
+  left: 136rpx;
+  font-size: 55rpx;
+  font-weight: 700;
+  top: 30rpx;
+}
+.wechat{
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  bottom: 20rpx;
+  right: 20rpx;
+}
+
+.ding{
+  background-color: #fed330;
+  box-shadow: 0 0 15rpx #fed330;
+}
+.ability{
+  color: azure;
+  font-size: 36rpx;
+  font-weight: 700;
+}

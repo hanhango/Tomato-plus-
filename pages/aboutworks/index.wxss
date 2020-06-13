@@ -1,0 +1,31 @@
+/* pages/aboutworks/index.wxss */
+.works{
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  text-align: center;
+}
+.works{
+  font-size: 55rpx;
+  font-weight: 800;
+  color: #1B9CFC;
+}
+.detail{
+  padding: 15rpx;
+  margin-top: 50rpx;
+  height: 400rpx;
+  background-color: #d1d8e0;
+  font-size: 33rpx;
+  border-radius: 23rpx;
+  color: #a5b1c2;
+  text-align: center;
+}
+.img{
+  width: 65rpx;
+  height: 65rpx;
+}
+.img1{
+  width: 100%;
+  height: 100%;
+}

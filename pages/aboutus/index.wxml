@@ -1,0 +1,27 @@
+<!--pages/aboutus/index.wxml-->
+<view class="aboutus">
+  <span class="team">关于我们</span>
+
+  <view class="han">
+    <view class="head">
+      <image class="img" src="../../img/han.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+    <span class="name">小韩</span>
+    <span class="ability">萌新前端开发</span>
+    <view bindtap="han" class="wechat">
+      <image class="img" src="../../img/wechat.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+  </view>
+
+  <view class="han ding">
+    <view class="head">
+      <image class="img" src="../../img/ding.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+    <span class="name">丁丁</span>
+    <span class="ability">全能产品经理</span>
+    <view bindtap="ding" class="wechat">
+      <image class="img" src="../../img/wechat.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+  </view>
+    
+</view>
